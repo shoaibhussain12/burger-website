@@ -11,11 +11,11 @@ import Footer from "../app/components/Footer";
 import Menuitem from "../app/components/Menuitem";
 
 import Testimonial from "./components/Testimonial";
-import Reservation from "./components/Reservation"
+import Reservation from "./components/Reservation";
 
 export default function App() {
   return (
-    <div className="bg-gradient-to-r from-black to--slate-700 min-h-screen text-white">
+    <div className="bg-gradient-to-r from-black to-slate-700 min-h-screen text-white">
       <Navbar />
       <Carousel />
       <Progressor />
@@ -24,10 +24,11 @@ export default function App() {
       <Banner />
       <Offer />
       <Card />
-      <Testimonal />
+      <Testimonial/>
+      <Reservation />
       <Footer />
       <Menuitem/>
-      <Reservation/>
+      
     </div>
   );
 }

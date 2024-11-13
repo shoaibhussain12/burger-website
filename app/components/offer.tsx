@@ -89,16 +89,16 @@ const SpecialOffer: React.FC = () => {
       description:
         "Earn points for every purchase.Redeem for free products.",
     },
-    // {
-    //   title: "New Product Launch",
-    //   description:
-    //     "Discover new products to our store during the launch.",
-    // },
+    {
+      title: "New Product Launch",
+      description:
+        "Discover new products to our store during the launch.",
+    },
 
-    // {
-    //   title: "Mid-Night Deal",
-    //   description: "1 free complimentry burger & drink in midnight deal.",
-    // },
+    {
+      title: "Mid-Night Deal",
+      description: "1 free complimentry burger & drink in midnight deal.",
+    },
 
 
   ];

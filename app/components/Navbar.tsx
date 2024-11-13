@@ -19,7 +19,7 @@ export default function Navbar() {
                 {/*search icon*/}
                 <div style={{ position: "relative" }}>
                   <input
-                    className="rounded-3xl py-3 px-3 outline-none text-xs w-[350px] pr-10 hidden lg:block md:block"
+                    className="rounded-3xl text-black py-3 px-3 outline-none text-xs w-[350px] pr-10 hidden lg:block md:block"
                     placeholder="Search for your favorite burgers from menu"
                   />
 
